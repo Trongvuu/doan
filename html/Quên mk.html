@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quên mật khẩu</title>
+    <link rel="stylesheet" href="..\css\quenmk.css">
+</head>
+<body>
+    <div class="forgot-password-container">
+        <form class="forgot-password-form">
+            <h2>Quên mật khẩu</h2>
+            <div class="input-group">
+                <input type="email" id="forgot-password-email" placeholder="Email" required>
+            </div>
+            <div class="input-group">
+                <input type="text" id="verification-code" placeholder="Nhập mã xác minh" required disabled>
+                <button type="button">Gửi mã</button>
+            </div>
+            <div class="input-group">
+                <input type="password" id="new-password" placeholder="Mật khẩu mới" required disabled>
+            </div>
+            <div class="input-group">
+                <input type="password" id="confirm-new-password" placeholder="Nhập lại mật khẩu" required disabled>
+            </div>
+            <button type="submit" disabled id="reset-password-btn">Đặt lại mật khẩu</button>
+            <div class="links">
+                <a href="..\html\Đăng nhập.html">Đã có tài khoản? Đăng nhập</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

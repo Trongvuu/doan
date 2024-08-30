@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.forgot-password-container {
+    background-color: #1c1c1c;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.forgot-password-form {
+    max-width: 300px;
+    margin: auto;
+    color: #fff;
+}
+
+.forgot-password-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.forgot-password-form p {
+    text-align: center;
+    font-size: 12px;
+    color: #aaaaaa;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888888;
+}
+
+.input-group input {
+    width: 250px;
+    padding: 10px 10px 10px 10px;
+    background-color: #333333;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.input-group input::placeholder {
+    color: #888888;
+}
+
+.input-group button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-group button:hover {
+    background-color: #0056b3;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.links a {
+    color: #007bff;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-image: url('https://mekoong.com/wp-content/uploads/2022/12/Hinh-anh-khong-gian-cuc-ao-4k-2048x1365.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
